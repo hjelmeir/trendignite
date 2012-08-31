@@ -1,2 +1,50 @@
-/* TrendIgnite
- */
+/* TrendIgnite */
+.container .deck-container > .slide ul.thumbnails a, .csstransitions.csstransforms
+.deck-container > .slide ul.thumbnails a {
+  position: relative;
+  margin-top: 30%;
+  display: block; }
+.container .deck-container > .slide h1, .csstransitions.csstransforms
+.deck-container > .slide h1 {
+  position: relative; }
+.container .deck-container > .slide h2, .csstransitions.csstransforms
+.deck-container > .slide h2 {
+  text-align: center;
+  border: 0;
+  margin-bottom: 1em;
+  color: #aaa;
+  font-size: 1.5rem; }
+.container .deck-container > .slide a.skip-me, .csstransitions.csstransforms
+.deck-container > .slide a.skip-me {
+  display: block;
+  width: 10%;
+  min-width: 100px;
+  max-width: 200px;
+  padding: 5px 10px;
+  margin: 0 auto; }
+.container .deck-container > .slide a.save-me, .csstransitions.csstransforms
+.deck-container > .slide a.save-me {
+  display: block;
+  text-align: center;
+  margin-bottom: 1em; }
+.container .deck-container > .slide .controls a, .csstransitions.csstransforms
+.deck-container > .slide .controls a {
+  width: 10%;
+  min-width: 100px;
+  max-width: 200px;
+  padding: 5px 10px; }
+  .container .deck-container > .slide .controls a.right, .csstransitions.csstransforms
+  .deck-container > .slide .controls a.right {
+    float: right; }
+  .container .deck-container > .slide .controls a.left, .csstransitions.csstransforms
+  .deck-container > .slide .controls a.left {
+    float: left; }
+  .container .deck-container > .slide .controls a.btn-primary, .csstransitions.csstransforms
+  .deck-container > .slide .controls a.btn-primary {
+    color: white; }
+
+.container-fluid .logo {
+  font-size: 4rem;
+  margin-bottom: 1em; }
+.container-fluid .intro {
+  text-align: center; }

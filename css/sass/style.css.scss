@@ -1,0 +1,62 @@
+/* TrendIgnite */
+.container .deck-container > .slide, .csstransitions.csstransforms
+.deck-container > .slide {
+  ul.thumbnails {
+    a {
+      position:relative;
+      margin-top:30%;
+      display:block;
+    }
+  }
+  h1 {
+    position:relative;
+  }
+  h2 {
+    text-align:center;
+    border:0;
+    margin-bottom:1em;
+    color:#aaa;
+    font-size:1.5rem;
+  }
+  a.skip-me {
+    display:block;
+    width:10%;
+    min-width:100px;
+    max-width:200px;
+    padding:5px 10px;
+    margin:0 auto;
+  }
+  a.save-me {
+    display:block;
+    text-align:center;
+    margin-bottom:1em;
+  }
+  .controls {
+    a {
+      width:10%;
+      min-width:100px;
+      max-width:200px;
+      padding:5px 10px;
+
+      &.right {
+        float:right;
+      }
+      &.left {
+        float:left;
+      }
+      &.btn-primary {
+        color:white;
+      }
+    }
+  }
+}
+.container-fluid {
+  .logo {
+    font-size:4rem;
+    margin-bottom:1em;
+  }
+  .intro {
+    text-align:center;
+  }
+}
+
