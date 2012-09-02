@@ -14,6 +14,15 @@
   margin-bottom: 1em;
   color: #aaa;
   font-size: 1.5rem; }
+.container .deck-container > .slide p, .container .deck-container > .slide h2, .container .deck-container > .slide h3, .container .deck-container > .slide h4, .csstransitions.csstransforms
+.deck-container > .slide p, .csstransitions.csstransforms
+.deck-container > .slide h2, .csstransitions.csstransforms
+.deck-container > .slide h3, .csstransitions.csstransforms
+.deck-container > .slide h4 {
+  text-align: center; }
+.container .deck-container > .slide p, .csstransitions.csstransforms
+.deck-container > .slide p {
+  color: #aaa; }
 .container .deck-container > .slide a.skip-me, .csstransitions.csstransforms
 .deck-container > .slide a.skip-me {
   display: block;
@@ -26,7 +35,8 @@
 .deck-container > .slide a.save-me {
   display: block;
   text-align: center;
-  margin-bottom: 1em; }
+  margin-bottom: 1em;
+  min-height: 300px; }
 .container .deck-container > .slide .controls a, .csstransitions.csstransforms
 .deck-container > .slide .controls a {
   width: 10%;
@@ -43,8 +53,25 @@
   .deck-container > .slide .controls a.btn-primary {
     color: white; }
 
+.container-fluid h1.main-title {
+  margin-bottom: 0.75em; }
+  .container-fluid h1.main-title span {
+    font-size: 70%;
+    font-weight: normal;
+    color: #999; }
 .container-fluid .logo {
-  font-size: 4rem;
-  margin-bottom: 1em; }
+  margin-bottom: 0.5em; }
+  .container-fluid .logo img {
+    max-width: 200px; }
 .container-fluid .intro {
   text-align: center; }
+.container-fluid .categories ul {
+  margin: 3em auto 2.5em;
+  text-align: center; }
+.container-fluid .categories li {
+  display: inline-block;
+  list-style: none;
+  padding: 5px 14px;
+  color: #999; }
+  .container-fluid .categories li.active {
+    background: #eee; }

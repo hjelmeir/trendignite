@@ -13,19 +13,6 @@
   <link href="css/bootstrap-responsive.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
 	
-	<!-- Extension CSS files go here. Remove or add as needed. -->
-	<link rel="stylesheet" href="extensions/goto/deck.goto.css">
-	<link rel="stylesheet" href="extensions/menu/deck.menu.css">
-	<link rel="stylesheet" href="extensions/navigation/deck.navigation.css">
-	<link rel="stylesheet" href="extensions/status/deck.status.css">
-	<link rel="stylesheet" href="extensions/hash/deck.hash.css">
-	<link rel="stylesheet" href="extensions/scale/deck.scale.css">
-
-	<!-- Style theme. More available in /themes/style/ or create your own. -->
-	<!--link rel="stylesheet" href="themes/style/web-2.0.css"-->
-	
-	<!-- Transition theme. More available in /themes/transition/ or create your own. -->
-	<link rel="stylesheet" href="css/transition/horizontal-slide.css">
 	
 	<!-- Required Modernizr file -->
   <script src="js/modernizr.custom.js"></script>
@@ -36,21 +23,33 @@
 <body class="container-fluid">
   <div class="row-fluid">
     <div class="span12">
-      <h1 class="logo"><img src="img/logo.png"/></h1>
+      <header>
+        <h1 class="logo"><img src="img/logo.png"/></h1>
+      </header>
     </div>
   </div>
   <div class="row-fluid">
     <div class="span12 intro">
-      <h1>To Begin:</h1>
-      <h2>Click an Image to Like</h2>
-      <p>An image with example</p>
-      <h2>Hit your arrow key or the skip button to skip</h2>
-      <a href="slides.html" class="btn btn-large btn-primary">I AM READY</a>
+      <h1 class="main-title">Logo Ignite <span>learn your logo persona</span></h1>
+      <div class="row-fluid">
+        <form class="span12" action="slides.html">
+          <div class="inputs">
+            <input name="email" type="email" value="" placeholder="Your Email" />
+            <input name="project_name" type="text" value="" placeholder="Project Name">
+          </div>
+        </form>
+      </div>
+      <div class="row-fluid">
+        <div class="span12">
+          <a href="slides.html"><img src="img/instructions.jpg" class="align-center"></a>
+        </div>
     </div>
   </div>
+  <footer>
+    <a href="www.glideinteractive.com">Glide Web</a>
+  </footer>
   <!-- Required JS files. -->
   <script src="js/jquery-1.7.2.min.js"></script>
-  <script src="js/deck.core.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/custom.js"></script>
 

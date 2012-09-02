@@ -21,9 +21,6 @@
 	<link rel="stylesheet" href="extensions/hash/deck.hash.css">
 	<link rel="stylesheet" href="extensions/scale/deck.scale.css">
 
-	<!-- Style theme. More available in /themes/style/ or create your own. -->
-	<!--link rel="stylesheet" href="themes/style/web-2.0.css"-->
-	
 	<!-- Transition theme. More available in /themes/transition/ or create your own. -->
 	<link rel="stylesheet" href="css/transition/horizontal-slide.css">
 	
@@ -35,24 +32,26 @@
 </head>
 <body class="container-fluid">
   <div class="row-fluid">
-      <div class="span12">
-        <h1 class="logo"><img src="img/logo.png"/></h1>
-      </div>
+    <div class="span3">
+      <h1 class="logo"><a href="index.html"><img src="img/logo.png"/></a></h1>
     </div>
+    <div class="span6 categories">
+      <ul>
+        <li class="btn">Structure</li>
+        <li>Mood</li>
+        <li>Graphic</li>
+        <li>Colors</li>
+      </ul>
+    </div>
+  </div>
   <div class="deck-container">
-    <!-- Begin slides. Just make elements with a class of slide. -->
     <section class="slide">
-      <h2>Logo</h2>
+      <p>Some text to focus on</p>
       <a href="#" class="save-me">
         <img src="http://placehold.it/460x200" alt="">
       </a>
       <div class="controls row-fluid">
-        <div class="span2 offset4 mobile-two">
-          <a href="#" class="skip-me btn right">Skip Me</a>
-        </div>
-        <div class="span2 mobile-two">
-          <a href="#" class="save-me btn btn-primary left">Like Me</a>
-        </div>
+          <a href="#" class="skip-me btn ">Skip</a>
       </div>
     </section>
 
@@ -62,12 +61,7 @@
         <img src="http://placehold.it/360x270" alt="">
       </a>
       <div class="controls row-fluid">
-        <div class="span2 offset4 mobile-two">
-          <a href="#" class="skip-me btn right">Skip</a>
-        </div>
-        <div class="span2 mobile-two">
-          <a href="#" class="save-me btn btn-primary left">Yes</a>
-        </div>
+          <a href="#" class="skip-me btn">Skip</a>
       </div>
     </section>
 
@@ -77,12 +71,7 @@
         <img src="http://placehold.it/300x200" alt="">
       </a>
       <div class="controls row-fluid">
-        <div class="span2 offset4 mobile-two">
-          <a href="results.html" class="skip-me btn right">Skip Me</a>
-        </div>
-        <div class="span2 mobile-two">
-          <a href="results.html" class="save-me btn btn-primary left">Like Me</a>
-        </div>
+          <a href="results.html" class="skip-me btn ">Skip</a>
       </div>
     </section>
 
