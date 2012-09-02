@@ -1,1 +1,2 @@
-# This is my README
+# Trendignite Prototype
+Glide Interactive's Internal Project
